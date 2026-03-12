@@ -1,7 +1,9 @@
 # PetfAIndr-Azure-Deployment
 Cloud Computing project deploying the PetfAIndr AI microservice application on Microsoft Azure using AKS, Docker, and Azure CLI.
-PetfAIndr – AI-Based Lost Pet Detection System on Microsoft Azure
-Project Overview
+**
+**PetfAIndr – AI-Based Lost Pet Detection System on Microsoft Azure
+Project Overview****
+
 PetfAIndr is a cloud-based application designed to help communities locate lost pets using Artificial Intelligence and modern cloud technologies.
 Pet owners can report missing pets, while community members can upload images of pets they find. The system analyzes these images using AI to determine if the pet matches any registered lost pet, increasing the chances of reconnecting pets with their owners.
 This project demonstrates how a microservice architecture can be deployed on Microsoft Azure using containerization, Kubernetes, and AI services.
@@ -27,7 +29,7 @@ Azure Storage Account	Stores uploaded pet images
 Azure Service Bus	Messaging between services
 Azure Custom Vision AI	AI model for image recognition
 
-Architecture Flow
+**Architecture Flow**
 User → Frontend (Blazor)
 Frontend → Backend (Python)
 Backend communicates with:
